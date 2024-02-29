@@ -1,14 +1,16 @@
 * {
     margin: 0;
-    box-sizing: border-box;
     padding: 0;
+    box-sizing: border-box;
     text-decoration: none;
-    background: black;
+    background: gray;
+    font-family: Arial, Helvetica, sans-serif;
+    color: red;
 }
 
 body {
-    background: rgb(30, 30 ,30);
-    color: skyblue;
+    background: grey;
+    color: red;
     overflow: hidden;
     overflow-y: scroll;
 }

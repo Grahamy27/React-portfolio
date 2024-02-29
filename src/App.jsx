@@ -1,14 +1,17 @@
-// import './App.css'
-import Navbar from "./components/navbar/navbar";
-import Intro from './components/intro/intro';
+import Navbar from "./components/Navbar/navbar.jsx";
+import Intro from './components/Intro/intro.jsx';
 
 function App() {
   return (
-    <div className='App'>
+    <div className="card">
       <Navbar />
       <Intro />
+      <About />
+      <Portfolio />
+      <Contact />
+      <Footer />
     </div>
   );
   }    
 
-export default App;
+export default App
