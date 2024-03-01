@@ -2,9 +2,9 @@ import { useState } from 'react'
 // import { Navbar } from 'react-bootstrap';
 import Navbar from './components/Navbar/navbar.jsx';
 import About from './components/About/about.jsx';
-import Portfolio from './components/Portfolio/portfolio.jsx';
+import Portfolio from './components/Portfolio/projects.jsx';
 import Contact from './components/Contact/contact.jsx';
-
+import Footer from './components/Footer/footer.jsx';
 
 function App() {
   
@@ -19,4 +19,4 @@ function App() {
   );
 }
 
-export default App
+export default App;
